@@ -2,7 +2,7 @@ import requests
 import xmltodict
 
 # 1. API 키 설정
-API_KEY = 'trcnbljnjkgvgctyvcgfhve546d7cdi78fcdr6ddc7869707fx577scy8bubbvtc5exw4z6567g0h9ji0kimub7y'  # 자신의 인증키
+API_KEY = ''  # 자신의 인증키
 API_KEY_decode = requests.utils.unquote(API_KEY)  # URL 인코딩 해제
 
 # 2. 우체국 도로명 주소 조회 API URL (정확한 최신 URL 확인 필요)
